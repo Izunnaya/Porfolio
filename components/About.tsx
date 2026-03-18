@@ -2,25 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-
-const traits = [
-  {
-    label: "Frontend",
-    desc: "Pixel-accurate UIs that perform. React, Next.js, and Tailwind as a daily driver.",
-  },
-  {
-    label: "Backend",
-    desc: "REST and GraphQL APIs, Node.js services, PostgreSQL, MongoDB. End-to-end thinking.",
-  },
-  {
-    label: "Infrastructure",
-    desc: "CI/CD pipelines, Vercel, cloud deployment. Shipping is part of the job.",
-  },
-  {
-    label: "Blockchain",
-    desc: "Web3 integrations, wallet connections, on-chain interactions with Web3.js.",
-  },
-];
+import traits from "@/utils/AboutMeTraitData";
 
 export default function About() {
   const ref = useRef(null);
@@ -50,17 +32,19 @@ export default function About() {
             </h2>
             <div className="line-gold mb-8" />
             <p className="text-muted text-base leading-relaxed">
-              I didn&apos;t start as an engineer. I came from chemistry, taught myself to code
-              during COVID, and discovered that solving real problems with software was exactly
-              what I wanted to do with my time.
+              I didn&apos;t start as an engineer. I came from chemistry, taught
+              myself to code during COVID, and discovered that solving real
+              problems with software was exactly what I wanted to do with my
+              time.
             </p>
             <p className="text-muted text-base leading-relaxed mt-4">
-              Three years later I&apos;ve shipped production code at Oceanwave, Metchain, and Trusoft.
-              Real users. Real traffic. Real consequences when something breaks.
+              Three years later I&apos;ve shipped production code at Oceanwave,
+              Metchain, and Trusoft. Real users. Real traffic. Real consequences
+              when something breaks.
             </p>
             <p className="text-muted text-base leading-relaxed mt-4">
-              Now I&apos;m focused on distributed systems, cloud architecture, and building
-              toward opportunities that stretch what I can do.
+              Now I&apos;m focused on distributed systems, cloud architecture,
+              and building toward opportunities that stretch what I can do.
             </p>
           </motion.div>
 
@@ -71,7 +55,11 @@ export default function About() {
                 key={t.label}
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.6, delay: 0.15 * i, ease: [0.22, 1, 0.36, 1] }}
+                transition={{
+                  duration: 0.6,
+                  delay: 0.15 * i,
+                  ease: [0.22, 1, 0.36, 1],
+                }}
                 className="border border-border rounded-lg p-6 bg-surface/50 hover:border-gold/20 transition-colors duration-300"
               >
                 <div className="flex items-center gap-3 mb-3">
