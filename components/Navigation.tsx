@@ -57,7 +57,7 @@ export default function Navigation() {
 
         {/* CTA */}
         <a
-          href="mailto:izunnaya11@gmail.com"
+          href="mailto:ugorjimicheal.um@gmail.com"
           className="hidden md:flex items-center gap-2 text-xs font-mono tracking-widest uppercase border border-gold/30 text-gold px-4 py-2 rounded-sm hover:bg-gold/10 transition-all duration-300"
         >
           Hire Me
