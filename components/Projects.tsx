@@ -10,8 +10,10 @@ const projects = [
     subtitle: "Developer Resource Platform",
     description:
       "Advanced filtering logic and AI-powered navigation to improve resource discoverability. Integrates Google Generative AI to help developers find what they need faster.",
-    problem: "Developers waste time searching scattered resources across the web.",
-    solution: "Centralized platform with AI-guided discovery and intelligent filtering.",
+    problem:
+      "Developers waste time searching scattered resources across the web.",
+    solution:
+      "Centralized platform with AI-guided discovery and intelligent filtering.",
     tech: ["React", "TypeScript", "Tailwind CSS", "Google Generative AI"],
     demo: "https://resourcify.vercel.app",
     github: "https://github.com/Izunnaya/resourcify",
@@ -23,8 +25,10 @@ const projects = [
     subtitle: "Job Board Platform",
     description:
       "Full-stack job board with post, search, and apply workflows. Server-side rendering, image upload, and form handling built on a modern stack.",
-    problem: "Job boards feel static. Users need dynamic, real-time posting and discovery.",
-    solution: "SSR-first architecture with Prisma ORM and PostgreSQL for reliable data.",
+    problem:
+      "Job boards feel static. Users need dynamic, real-time posting and discovery.",
+    solution:
+      "SSR-first architecture with Prisma ORM and PostgreSQL for reliable data.",
     tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Vercel"],
     demo: "https://jobify-app.vercel.app",
     github: "https://github.com/Izunnaya/jobify",
@@ -36,9 +40,19 @@ const projects = [
     subtitle: "Food Ordering Application",
     description:
       "Scalable food ordering app built to simulate real startup workflows. Auth0 authentication, REST API, cloud hosting, and a clean React frontend.",
-    problem: "Building a scalable food platform requires solid API design and auth from day one.",
-    solution: "Separated frontend and backend repos, Auth0 for auth, MongoDB for flexible data.",
-    tech: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Auth0", "ShadCN UI"],
+    problem:
+      "Building a scalable food platform requires solid API design and auth from day one.",
+    solution:
+      "Separated frontend and backend repos, Auth0 for auth, MongoDB for flexible data.",
+    tech: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Auth0",
+      "ShadCN UI",
+    ],
     demo: null,
     github: "https://github.com/Izunnaya/food-ordering-app",
     highlight: false,
@@ -49,8 +63,10 @@ const projects = [
     subtitle: "AAA Shooter Game WebApp",
     description:
       "Real-time player data and event integration for a competitive shooter game platform. WebSocket-powered live updates and REST API consumption.",
-    problem: "Game dashboards need live data. Polling is too slow and too costly.",
-    solution: "WebSocket architecture for real-time player events and leaderboard updates.",
+    problem:
+      "Game dashboards need live data. Polling is too slow and too costly.",
+    solution:
+      "WebSocket architecture for real-time player events and leaderboard updates.",
     tech: ["React", "TypeScript", "WebSockets", "REST APIs"],
     demo: "https://strayshot.vercel.app",
     github: null,
@@ -63,7 +79,8 @@ const projects = [
     description:
       "Migrated an entire codebase to Next.js with full blockchain integrations. Wallet connections, on-chain interactions, and improved user onboarding.",
     problem: "Legacy codebase couldn't support modern blockchain UX patterns.",
-    solution: "Full Next.js migration, Web3.js wallet integration, and redesigned onboarding flow.",
+    solution:
+      "Full Next.js migration, Web3.js wallet integration, and redesigned onboarding flow.",
     tech: ["React", "TypeScript", "Next.js", "Web3.js"],
     demo: "https://metchain.io",
     github: null,
@@ -75,8 +92,10 @@ const projects = [
     subtitle: "Fitness & Wellness Platform",
     description:
       "Membership management, workout scheduling, and e-commerce for fitness products. Full-stack with Node.js backend and MongoDB.",
-    problem: "Fitness platforms need multiple user flows: scheduling, shopping, and membership.",
-    solution: "Unified full-stack application with Express API and React frontend.",
+    problem:
+      "Fitness platforms need multiple user flows: scheduling, shopping, and membership.",
+    solution:
+      "Unified full-stack application with Express API and React frontend.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
     demo: "https://fitnessplus.vercel.app",
     github: null,
@@ -86,7 +105,14 @@ const projects = [
 
 function ExternalIcon() {
   return (
-    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <svg
+      width="12"
+      height="12"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+    >
       <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
       <polyline points="15,3 21,3 21,9" />
       <line x1="10" y1="14" x2="21" y2="3" />
@@ -125,7 +151,8 @@ export default function Projects() {
               Projects<span className="text-gold">.</span>
             </h2>
             <p className="text-muted text-sm max-w-xs text-right hidden md:block">
-              Six production-level projects across multiple domains and tech stacks.
+              Some production-level projects across multiple domains and tech
+              stacks.
             </p>
           </div>
           <div className="line-gold mt-6" />
@@ -138,7 +165,11 @@ export default function Projects() {
               key={project.title}
               initial={{ opacity: 0, y: 24 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, delay: 0.1 * i, ease: [0.22, 1, 0.36, 1] }}
+              transition={{
+                duration: 0.6,
+                delay: 0.1 * i,
+                ease: [0.22, 1, 0.36, 1],
+              }}
               className={`project-card group border rounded-xl p-6 md:p-8 ${
                 project.highlight
                   ? "border-gold/20 bg-gradient-to-br from-surface to-surface/50"

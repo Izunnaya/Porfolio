@@ -1,7 +1,7 @@
 const traits = [
   {
     label: "Frontend",
-    desc: "Pixel-accurate UIs that perform. React, Next.js, and Tailwind as a daily driver.",
+    desc: "Pixel-perfect UIs that perform. React, Next.js, and Tailwind as a daily driver.",
   },
   {
     label: "Backend",

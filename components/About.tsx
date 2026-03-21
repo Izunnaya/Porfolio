@@ -38,12 +38,13 @@ export default function About() {
               time.
             </p>
             <p className="text-muted text-base leading-relaxed mt-4">
-              Three years later I&apos;ve shipped production code at Oceanwave,
-              Metchain, and Trusoft. Real users. Real traffic. Real consequences
-              when something breaks.
+              Three years later I&apos;ve shipped production code with real
+              users, real traffic and{" "}
+              <strong>real consequences when something breaks.</strong>
             </p>
             <p className="text-muted text-base leading-relaxed mt-4">
-              Now I&apos;m focused on distributed systems, cloud architecture,
+              Right now I'm going deeper on the backend. Learning Java,
+              sharpening my understanding of how systems work under the hood,
               and building toward opportunities that stretch what I can do.
             </p>
           </motion.div>

@@ -6,11 +6,27 @@ import { useRef } from "react";
 const categories = [
   {
     label: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "ShadCN UI", "React Hook Form"],
+    items: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "ShadCN UI",
+      "React Hook Form",
+    ],
   },
   {
     label: "Backend",
-    items: ["Node.js", "Express", "GraphQL", "REST APIs", "Prisma", "PostgreSQL", "MongoDB"],
+    items: [
+      "Node.js",
+      "Express",
+      "GraphQL",
+      "REST APIs",
+      "Prisma",
+      "PostgreSQL",
+      "MongoDB",
+    ],
   },
   {
     label: "Infrastructure",
@@ -27,7 +43,11 @@ export default function Skills() {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="skills" ref={ref} className="py-32 relative border-t border-border/40">
+    <section
+      id="skills"
+      ref={ref}
+      className="py-32 relative border-t border-border/40"
+    >
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -84,7 +104,12 @@ export default function Skills() {
               Currently expanding into
             </p>
           </div>
-          {["Cloud Architecture", "Distributed Systems", "AWS", "Kubernetes"].map((item) => (
+          {[
+            "Java",
+            "Backend Systems",
+            "System Design",
+            "Data Structures & Algorithms",
+          ].map((item) => (
             <span
               key={item}
               className="text-xs font-mono text-gold/70 border border-gold/20 px-3 py-1.5 rounded-sm"
