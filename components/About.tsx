@@ -38,7 +38,7 @@ export default function About() {
               time.
             </p>
             <p className="text-muted text-base leading-relaxed mt-4">
-              Three years later I&apos;ve shipped production code with real
+              Fast forward to today, I&apos;ve shipped production code with real
               users, real traffic and{" "}
               <strong>real consequences when something breaks.</strong>
             </p>

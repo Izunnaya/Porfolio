@@ -111,7 +111,7 @@ export default function HeroText() {
           href="mailto:izunnaya11@gmail.com"
           className="text-xs font-mono text-muted hover:text-gold transition-colors tracking-widest"
         >
-          izunnaya11@gmail.com
+          ugorjimicheal.um@gmail.com
         </a>
       </motion.div>
     </motion.div>

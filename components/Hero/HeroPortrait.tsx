@@ -70,7 +70,7 @@ export default function HeroPortrait() {
           <p className="text-xs font-mono text-muted tracking-widest uppercase mb-0.5">
             Experience
           </p>
-          <p className="text-text font-display text-lg font-medium">3+ Years</p>
+          <p className="text-text font-display text-lg font-medium">4+ Years</p>
         </motion.div>
 
         {/* Tech badge */}

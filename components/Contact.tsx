@@ -6,7 +6,7 @@ import { useRef } from "react";
 const links = [
   {
     label: "Email",
-    value: "izunnaya11@gmail.com",
+    value: "ugorjimicheal.um@gmail.com",
     href: "mailto:izunnaya11@gmail.com",
   },
   {
@@ -31,7 +31,11 @@ export default function Contact() {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="contact" ref={ref} className="py-32 relative border-t border-border/40">
+    <section
+      id="contact"
+      ref={ref}
+      className="py-32 relative border-t border-border/40"
+    >
       {/* Bottom glow */}
       <div
         className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] pointer-events-none"
@@ -58,8 +62,9 @@ export default function Contact() {
               <span className="text-gold-gradient">something real.</span>
             </h2>
             <p className="text-muted leading-relaxed mb-12 text-base">
-              Open to remote opportunities, contract work, and interesting conversations.
-              If you&apos;re building something that matters, I want to hear about it.
+              Open to remote opportunities, contract work, and interesting
+              conversations. If you&apos;re building something that matters, I
+              want to hear about it.
             </p>
           </motion.div>
 
@@ -71,7 +76,7 @@ export default function Contact() {
             className="mb-16"
           >
             <a
-              href="mailto:izunnaya11@gmail.com"
+              href="mailto:ugorjimicheal.um@gmail.com"
               className="inline-flex items-center gap-3 bg-gold text-bg text-sm font-mono tracking-widest uppercase px-8 py-4 rounded-sm hover:bg-gold/90 transition-all duration-300 group"
             >
               Send a Message
