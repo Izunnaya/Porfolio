@@ -15,7 +15,7 @@ const projects = [
     solution:
       "Centralized platform with AI-guided discovery and intelligent filtering.",
     tech: ["React", "TypeScript", "Tailwind CSS", "Google Generative AI"],
-    demo: "https://resourcify.vercel.app",
+    demo: "https://v55-team22.pages.dev/",
     github: "https://github.com/Izunnaya/resourcify",
     highlight: true,
   },

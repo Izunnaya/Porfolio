@@ -7,7 +7,7 @@ const experiences = [
   {
     company: "Oceanwave",
     role: "Frontend Engineer",
-    period: "2022 — Present",
+    period: "2024 — Present",
     type: "Full-time",
     description:
       "Building and maintaining production React applications. Delivered measurable page load improvements and shipped features with significant user engagement impact across multiple product lines.",
@@ -21,7 +21,7 @@ const experiences = [
   {
     company: "Metchain",
     role: "Frontend Engineer",
-    period: "2022",
+    period: "2022 — 2023",
     type: "Contract",
     description:
       "Migrated entire legacy codebase to Next.js. Implemented blockchain integrations including wallet connections, on-chain interactions, and redesigned user onboarding.",
@@ -53,7 +53,11 @@ export default function Experience() {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="experience" ref={ref} className="py-32 relative border-t border-border/40">
+    <section
+      id="experience"
+      ref={ref}
+      className="py-32 relative border-t border-border/40"
+    >
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -99,7 +103,9 @@ export default function Experience() {
                   <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                     <div>
                       <div className="flex items-center gap-3 mb-1">
-                        <h3 className="font-display text-text text-xl">{exp.company}</h3>
+                        <h3 className="font-display text-text text-xl">
+                          {exp.company}
+                        </h3>
                         {exp.current && (
                           <span className="text-xs font-mono tracking-widest uppercase text-emerald-400 border border-emerald-400/30 px-2 py-0.5 rounded-full">
                             Current
@@ -109,12 +115,18 @@ export default function Experience() {
                       <p className="text-sm text-muted">{exp.role}</p>
                     </div>
                     <div className="text-right">
-                      <p className="font-mono text-xs text-gold tracking-widest">{exp.period}</p>
-                      <p className="font-mono text-xs text-muted mt-0.5">{exp.type}</p>
+                      <p className="font-mono text-xs text-gold tracking-widest">
+                        {exp.period}
+                      </p>
+                      <p className="font-mono text-xs text-muted mt-0.5">
+                        {exp.type}
+                      </p>
                     </div>
                   </div>
 
-                  <p className="text-muted text-sm leading-relaxed mb-4">{exp.description}</p>
+                  <p className="text-muted text-sm leading-relaxed mb-4">
+                    {exp.description}
+                  </p>
 
                   <ul className="flex flex-wrap gap-2">
                     {exp.highlights.map((h) => (
