@@ -56,9 +56,9 @@ export default function HeroText() {
         className="text-muted text-base leading-relaxed max-w-md"
         style={{ fontFamily: "var(--font-body)" }}
       >
-        I build production-grade web applications with TypeScript, React, and
-        Node.js. Three years shipping features users actually use, across
-        fintech, blockchain, and SaaS.
+        I build production-grade web applications with{" "}
+        <strong>TypeScript, React, and Node.js</strong>. 4+ years shipping
+        features users actually use, across fintech, blockchain, and SaaS.
       </motion.p>
 
       {/* CTAs */}
