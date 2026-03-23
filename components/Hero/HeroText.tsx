@@ -29,7 +29,10 @@ export default function HeroText() {
       className="space-y-8"
     >
       {/* Status badge */}
-      <motion.div variants={itemVariants} className="flex items-center gap-3">
+      <motion.div
+        variants={itemVariants}
+        className="flex items-center gap-3 w-full"
+      >
         <span className="flex items-center gap-2 text-xs font-mono tracking-widest uppercase text-muted border border-border px-3 py-1.5 rounded-full">
           <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
           Available for opportunities
@@ -39,7 +42,7 @@ export default function HeroText() {
       {/* Name */}
       <motion.div variants={itemVariants}>
         <p className="section-label mb-3">
-          Full Stack Engineer (Frontend Heavy){" "}
+          Full Stack Engineer (Frontend Heavy)
         </p>
         <h1
           className="font-display leading-none tracking-tight"
@@ -67,7 +70,7 @@ export default function HeroText() {
       <motion.div variants={itemVariants} className="flex flex-wrap gap-4">
         <a
           href="#projects"
-          className="group flex items-center gap-2 bg-gold text-bg text-sm font-mono tracking-widest uppercase px-6 py-3 rounded-sm hover:bg-gold/90 transition-all duration-300"
+          className="group flex items-center justify-center gap-2 bg-gold text-bg text-sm font-mono tracking-widest uppercase px-6 py-3 rounded-sm hover:bg-gold/90 transition-all duration-300"
         >
           View Projects
           <svg
@@ -98,31 +101,33 @@ export default function HeroText() {
       </motion.div>
 
       {/* Social links */}
-
-      <motion.div
-        variants={itemVariants}
-        className="flex items-center gap-6 pt-2"
-      >
-        {socialLinks.map((s) => (
-          <a
-            key={s.label}
-            href={s.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={s.label}
-            className="text-muted hover:text-gold transition-colors duration-300"
-          >
-            {s.icon}
-          </a>
-        ))}
-        <span className="w-16 h-px bg-border" />
-        <a
-          href="mailto:izunnaya11@gmail.com"
-          className="text-xs font-mono text-muted hover:text-gold transition-colors tracking-widest"
+      <div className="gridmd:flex">
+        {" "}
+        <motion.div
+          variants={itemVariants}
+          className="md:flex items-center gap-2 lg:gap-6 pt-2 hidden"
         >
-          ugorjimicheal.um@gmail.com
-        </a>
-      </motion.div>
+          {socialLinks.map((s) => (
+            <a
+              key={s.label}
+              href={s.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={s.label}
+              className="text-muted hover:text-gold transition-colors duration-300"
+            >
+              {s.icon}
+            </a>
+          ))}
+          <span className="w-16 h-px bg-border" />
+          <a
+            href="mailto:izunnaya11@gmail.com"
+            className="text-xs font-mono text-muted hover:text-gold transition-colors tracking-widest"
+          >
+            ugorjimicheal.um@gmail.com
+          </a>
+        </motion.div>
+      </div>
     </motion.div>
   );
 }
