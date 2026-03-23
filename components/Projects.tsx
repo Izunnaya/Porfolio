@@ -39,7 +39,7 @@ const projects = [
     title: "Foody",
     subtitle: "Food Ordering Application",
     description:
-      "food ordering application built to simulate real startup workflows. Auth0 authentication, REST API, cloud hosting, and a clean React frontend.",
+      "Food ordering applicstion built to simulate real startup workflows. Auth0 authentication, REST API, cloud hosting, and a clean React frontend.",
     problem:
       "Building a scalable food platform requires solid API design and auth from day one.",
     solution:
@@ -63,6 +63,8 @@ const projects = [
     subtitle: "AAA Shooter Game WebApp",
     description:
       "Real-time player data and event integration for a competitive shooter game platform. WebSocket-powered live updates and REST API consumption.",
+    problem:
+      "Game dashboards need live data. Polling is too slow and too costly.",
     solution:
       "WebSocket architecture for real-time player events and leaderboard updates.",
     tech: ["React", "TypeScript", "WebSockets", "REST APIs"],
