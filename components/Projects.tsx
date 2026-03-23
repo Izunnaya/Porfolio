@@ -15,7 +15,7 @@ const projects = [
     solution:
       "Focused on clarity over decoration. Used a minimal design system, structured content hierarchy, and restrained animations to highlight projects, decisions, and technical depth.",
     tech: ["Next.js 15", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    demo: "https://ugorji-michael-portfolio.vercel.app/",
+    demo: "https://ugorji-michael.vercel.app/",
     github: "https://github.com/Izunnaya/Porfolio",
     highlight: true,
   },
