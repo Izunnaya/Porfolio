@@ -32,20 +32,19 @@ export default function About() {
             </h2>
             <div className="line-gold mb-8" />
             <p className="text-muted text-base leading-relaxed">
-              I didn&apos;t start as an engineer. I came from chemistry, taught
-              myself to code during COVID, and discovered that solving real
-              problems with software was exactly what I wanted to do with my
-              time.
+              I didn&apos;t start as an engineer. My chemistry background
+              trained me to think in systems, and during COVID I taught myself
+              to code and realized solving real problems with software was what
+              I wanted to do.
             </p>
             <p className="text-muted text-base leading-relaxed mt-4">
-              Fast forward to today, I&apos;ve shipped production code with real
-              users, real traffic and{" "}
-              <strong>real consequences when something breaks.</strong>
+              Today, I ship production code used by real users,{" "}
+              <strong>where failures have real consequences.</strong>
             </p>
             <p className="text-muted text-base leading-relaxed mt-4">
-              Right now I'm going deeper on the backend. Learning Java,
-              sharpening my understanding of how systems work under the hood,
-              and building toward opportunities that stretch what I can do.
+              Right now, I&apos;m focused on backend engineering, learning Java,
+              and building a deeper understanding of how systems work under the
+              hood.
             </p>
           </motion.div>
 

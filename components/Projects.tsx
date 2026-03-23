@@ -39,9 +39,7 @@ const projects = [
     title: "Foody",
     subtitle: "Food Ordering Application",
     description:
-      "Scalable food ordering app built to simulate real startup workflows. Auth0 authentication, REST API, cloud hosting, and a clean React frontend.",
-    problem:
-      "Building a scalable food platform requires solid API design and auth from day one.",
+      "Food ordering app built to simulate real startup workflows. Auth0 authentication, REST API, cloud hosting, and a clean React frontend.",
     solution:
       "Separated frontend and backend repos, Auth0 for auth, MongoDB for flexible data.",
     tech: [
@@ -63,10 +61,6 @@ const projects = [
     subtitle: "AAA Shooter Game WebApp",
     description:
       "Real-time player data and event integration for a competitive shooter game platform. WebSocket-powered live updates and REST API consumption.",
-    problem:
-      "Game dashboards need live data. Polling is too slow and too costly.",
-    solution:
-      "WebSocket architecture for real-time player events and leaderboard updates.",
     tech: ["React", "TypeScript", "WebSockets", "REST APIs"],
     demo: "https://strayshot.vercel.app",
     github: null,
@@ -92,8 +86,6 @@ const projects = [
     subtitle: "Fitness & Wellness Platform",
     description:
       "Membership management, workout scheduling, and e-commerce for fitness products. Full-stack with Node.js backend and MongoDB.",
-    problem:
-      "Fitness platforms need multiple user flows: scheduling, shopping, and membership.",
     solution:
       "Unified full-stack application with Express API and React frontend.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
