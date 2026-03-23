@@ -80,6 +80,13 @@ export default function HeroText() {
             <path d="M5 12h14M12 5l7 7-7 7" />
           </svg>
         </a>
+
+        <a
+          href="/devCV.pdf"
+          className="flex items-center gap-2 border border-border text-text text-sm font-mono tracking-widest uppercase px-6 py-3 rounded-sm hover:border-gold/40 hover:text-gold transition-all duration-300"
+        >
+          download cv
+        </a>
         <a
           href="#contact"
           className="flex items-center gap-2 border border-border text-text text-sm font-mono tracking-widest uppercase px-6 py-3 rounded-sm hover:border-gold/40 hover:text-gold transition-all duration-300"
