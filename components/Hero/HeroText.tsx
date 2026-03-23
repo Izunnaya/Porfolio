@@ -38,7 +38,9 @@ export default function HeroText() {
 
       {/* Name */}
       <motion.div variants={itemVariants}>
-        <p className="section-label mb-3">Full Stack Engineer</p>
+        <p className="section-label mb-3">
+          Full Stack Engineer (Frontend Heavy){" "}
+        </p>
         <h1
           className="font-display leading-none tracking-tight"
           style={{ fontSize: "clamp(3rem, 6vw, 5.5rem)" }}
