@@ -6,6 +6,21 @@ import { useRef } from "react";
 const projects = [
   {
     number: "01",
+    title: "Portfolio",
+    subtitle: "Personal Developer Portfolio",
+    description:
+      "Designed and built a production-grade portfolio from scratch. Dark theme, Cormorant Garamond display type, scroll-reveal animations, and a component architecture built for scale.",
+    problem:
+      "Most developer portfolios prioritize aesthetics over clarity, making it hard to quickly understand the engineer’s thinking, depth, and technical strengths.",
+    solution:
+      "Focused on clarity over decoration. Used a minimal design system, structured content hierarchy, and restrained animations to highlight projects, decisions, and technical depth.",
+    tech: ["Next.js 15", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    demo: "https://ugorji-michael-portfolio.vercel.app/",
+    github: "https://github.com/Izunnaya/Porfolio",
+    highlight: true,
+  },
+  {
+    number: "02",
     title: "Resourcify",
     subtitle: "Developer Resource Platform",
     description:
@@ -20,7 +35,7 @@ const projects = [
     highlight: true,
   },
   {
-    number: "02",
+    number: "03",
     title: "Jobify",
     subtitle: "Job Board Platform",
     description:
@@ -35,7 +50,7 @@ const projects = [
     highlight: false,
   },
   {
-    number: "03",
+    number: "04",
     title: "Foody",
     subtitle: "Food Ordering Application",
     description:
@@ -58,7 +73,7 @@ const projects = [
     highlight: false,
   },
   {
-    number: "04",
+    number: "05",
     title: "StrayShot",
     subtitle: "AAA Shooter Game WebApp",
     description:
@@ -73,7 +88,7 @@ const projects = [
     highlight: false,
   },
   {
-    number: "05",
+    number: "06",
     title: "MetChain",
     subtitle: "Blockchain Platform",
     description:
@@ -87,7 +102,7 @@ const projects = [
     highlight: false,
   },
   {
-    number: "06",
+    number: "07",
     title: "FitnessPlus",
     subtitle: "Fitness & Wellness Platform",
     description:
