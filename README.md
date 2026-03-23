@@ -1,5 +1,6 @@
 # Michael Ugorji Developer Portfolio
-<img width="3690" height="1940" alt="image" src="https://github.com/user-attachments/assets/3875fcdd-9299-4872-9e70-e14d666f55ae" />
+<img width="3650" height="1932" alt="image" src="https://github.com/user-attachments/assets/4b3e4eda-317f-40b4-ba5c-d4417ac3c8f5" />
+
 
 
 A production-grade personal portfolio built with Next.js 15, TypeScript, Tailwind CSS, and Framer Motion. Designed from scratch with a dark editorial aesthetic inspired by Vercel, Linear, and Stripe developer pages.
