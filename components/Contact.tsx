@@ -22,7 +22,7 @@ const links = [
   {
     label: "Blog",
     value: "hashnode.com/@Izunnaya",
-    href: "https://hashnode.com/@Izunnaya",
+    href: "https://izunnaya.hashnode.dev/",
   },
 ];
 
