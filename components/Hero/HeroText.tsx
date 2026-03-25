@@ -87,12 +87,6 @@ export default function HeroText() {
         </a>
 
         <a
-          href="/devCV.pdf"
-          className="flex items-center gap-2 border border-border text-text text-sm font-mono tracking-widest uppercase px-6 py-3 rounded-sm hover:border-gold/40 hover:text-gold transition-all duration-300"
-        >
-          download cv
-        </a>
-        <a
           href="#contact"
           className="flex items-center gap-2 border border-border text-text text-sm font-mono tracking-widest uppercase px-6 py-3 rounded-sm hover:border-gold/40 hover:text-gold transition-all duration-300"
         >
